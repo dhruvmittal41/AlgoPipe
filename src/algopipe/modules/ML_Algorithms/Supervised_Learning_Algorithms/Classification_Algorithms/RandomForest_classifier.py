@@ -20,3 +20,5 @@ class RandomForestClassifier(BaseModule):
             f"preds = {variable_name}.predict(X_test)\n"
             f"print(f'Accuracy: {{accuracy_score(y_test, preds)}}')"
         )
+    
+

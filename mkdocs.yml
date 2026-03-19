@@ -1,0 +1,15 @@
+site_name: AlgoPipe
+site_description: ML Pipeline Generator CLI
+site_author: Your Name
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Usage: usage.md
+  - CLI Reference: cli.md
+  - Examples: examples.md
+  - Algorithms:
+      - Random Forest: algorithms/random_forest.md

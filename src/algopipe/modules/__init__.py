@@ -1,7 +1,7 @@
 # Import all sub-modules here to trigger registration
 from .Data_Spliting import train_test_split
 from .ML_Algorithms.Supervised_Learning_Algorithms.Regression_Algorithms import Linear_regression, Ridge_regression, Bayesian_regression, Polynomial_regression,DecisionTree_regression,Elastic_net_regression,GradientBoosted_regression,RandomForest_regression,Lasso_regression,Support_Vector_regression
-from .Data_Preprocessing import Handling_MissingValues
+from .Data_Preprocessing import Handling_MissingValues,Normalization,Encoding_CategoricalData
 from .ML_Algorithms.Supervised_Learning_Algorithms.Classification_Algorithms import Logistic_regression, LinearDiscriminantAnalysis, SVM, AdaBoost,catBoost,Decisiontree_classifier,GradientBoostingMachines,KNN,RandomForest_classifier,XGBoost,NaiveBayes,LightGBM,quadraticDiscriminantAnalysis
 from .Data_Visualization import Bivariate_Analysis, Multivariate_Analysis, Pair_Plots, Univariate_Analysis, Missing_Values_Visualization
 from .ML_Algorithms.Unsupervised_Learning_Algorithms.DimensionalityReduction import LDA,PCA,t_SNE,UMAP,IndependentComponentAnalysis,FactorAnalysis,Autoencoders
@@ -16,4 +16,6 @@ from .DL_Algorithms.Graph_NeuralNetworks import Graph_Attention_Network,Graph_Co
 from .DL_Algorithms.Recurrent_NN import Attention_Mechanism,Bidirectional_LSTM_GRU,Gated_Recurrent_Unit,Long_Short_term_Memory,Sequence_to_sequence_models,Vanilla_RNN
 from .DL_Algorithms.Transformer_Based_Architecture import ALBERT,BERT,CLIP,GPT,LLMs,RoBERTa,SwinTransformer,T5,Transformer,VisionTransformer,Whisper,XLNet
 from .ReinforcementLearning_Algorithms import Actor_Critic_Models,Deep_Q_Networks,MonteCarlo_TreeSearch,PolicyGradientMethods,Proximal_Policy_Optimization,Q_Learning,SARSA
-
+from .Evaluation_Metrics.Classification_Metrics import AccuracyMetric, F1ScoreMetric, PrecisionMetric, RecallMetric
+from .Evaluation_Metrics.Regression_Metrics import MSEMetric, RMSEMetric, R2ScoreMetric
+from .Data_Loading.Loaders import CSVLoader, ExcelLoader, CustomDataLoader
