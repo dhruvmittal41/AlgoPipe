@@ -1,9 +1,7 @@
 # 🚀 AlgoPipe — ML Pipeline Generator CLI
 
 ![PyPI](https://img.shields.io/pypi/v/algopipe)
-![Python](https://img.shields.io/pypi/pyversions/algopipe)
-
-![Build](https://img.shields.io/github/actions/workflow/status/dhruvmittal41/AlgoPipe/ci.yml)
+![Build](https://img.shields.io/github/actions/workflow/status/dhruvmittal41/AlgoPipe/pyproject.toml)
 ![Downloads](https://img.shields.io/pypi/dm/algopipe)
 
 
