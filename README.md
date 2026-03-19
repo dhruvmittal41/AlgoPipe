@@ -2,10 +2,10 @@
 
 ![PyPI](https://img.shields.io/pypi/v/algopipe)
 ![Python](https://img.shields.io/pypi/pyversions/algopipe)
-![License](https://img.shields.io/github/license/dhruvmittal41/AlgoPipe)
+
 ![Build](https://img.shields.io/github/actions/workflow/status/dhruvmittal41/AlgoPipe/ci.yml)
 ![Downloads](https://img.shields.io/pypi/dm/algopipe)
-![Stars](https://img.shields.io/github/stars/dhruvmittal41/AlgoPipe?style=social)
+
 
 > ⚡ Generate complete Machine Learning pipelines in seconds — directly from your terminal.
 
