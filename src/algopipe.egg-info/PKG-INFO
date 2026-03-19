@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: algopipe
+Version: 0.1.1
+Summary: Interactive CLI to generate ML/DL pipelines.
+Author-email: Dhruv Mittal <mittaldhruv41@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: questionary
+Requires-Dist: rich
+Requires-Dist: black
+Dynamic: license-file

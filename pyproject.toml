@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "algopipe"
+version = "0.1.1"
+description = "Interactive CLI to generate ML/DL pipelines."
+readme = "README.md" 
+requires-python = ">=3.8"
+license = {text = ""}
+authors = [{name = "Dhruv Mittal", email = "mittaldhruv41@gmail.com"}]
+dependencies = [
+    "questionary",  # For interactive menus
+    "rich",         # For pretty printing
+    "black",        # For formatting generated code
+]
+
+[project.scripts]
+algopipe = "algopipe.cli:main"  # This allows users to type 'aitool' in terminal
