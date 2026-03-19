@@ -124,7 +124,7 @@ Contributions are welcome!
 ## 🧪 Development Setup
 
 ```bash
-git clone https://github.com/yourusername/algopipe.git
+git clone https://github.com/dhruvmittal41/algopipe.git
 cd algopipe
 pip install -e .
 ```
