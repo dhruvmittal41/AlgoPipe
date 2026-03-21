@@ -3,7 +3,6 @@
 ![PyPI](https://img.shields.io/pypi/v/algopipe)
 ![Downloads](https://img.shields.io/pypi/dm/algopipe)
 
-
 > ⚡ Generate complete Machine Learning pipelines in seconds — directly from your terminal.
 
 ---
@@ -22,12 +21,12 @@ Instead of manually setting up folders, scripts, preprocessing pipelines, and mo
 
 ## ✨ Features
 
-* 🛠️ Interactive CLI-based pipeline generation
-* ⚡ Supports customizable ML workflows
-* 📁 Auto-generates clean project structure
-* 🔌 Plug-and-play code (ready to run)
-* 🧩 Modular pipeline components
-* 🎯 Beginner-friendly, powerful for advanced users
+- 🛠️ Interactive CLI-based pipeline generation
+- ⚡ Supports customizable ML workflows
+- 📁 Auto-generates clean project structure
+- 🔌 Plug-and-play code (ready to run)
+- 🧩 Modular pipeline components
+- 🎯 Beginner-friendly, powerful for advanced users
 
 ---
 
@@ -67,37 +66,20 @@ $ algopipe
 
 ---
 
-## 📂 Generated Project Structure
-
-```bash
-your-project/
-│── data/
-│── notebooks/
-│── src/
-│   ├── preprocessing.py
-│   ├── train.py
-│   ├── evaluate.py
-│── models/
-│── requirements.txt
-│── README.md
-```
-
----
-
 ## 🎯 Why AlgoPipe?
 
-* Saves hours of repetitive setup ⏳
-* Helps beginners follow best practices 📚
-* Rapid prototyping for ML engineers ⚡
-* Clean and scalable project templates 🧱
+- Saves hours of repetitive setup ⏳
+- Helps beginners follow best practices 📚
+- Rapid prototyping for ML engineers ⚡
+- Clean and scalable project templates 🧱
 
 ---
 
 ## 🛠️ Tech Stack
 
-* Python 🐍
-* CLI-based interaction
-* Modular code generation
+- Python 🐍
+- CLI-based interaction
+- Modular code generation
 
 ---
 
@@ -124,7 +106,7 @@ Contributions are welcome!
 ## 🧪 Development Setup
 
 ```bash
-git clone https://github.com/yourusername/algopipe.git
+git clone https://github.com/dhruvmittal41/algopipe.git
 cd algopipe
 pip install -e .
 ```
@@ -151,10 +133,10 @@ If you like this project:
 
 ## 🔥 Roadmap
 
-* [ ] Add deep learning pipelines
-* [ ] Add dataset auto-fetching
-* [ ] Add experiment tracking integration
-* [ ] GUI version (future 🚀)
+- [ ] Add deep learning pipelines
+- [ ] Add dataset auto-fetching
+- [ ] Add experiment tracking integration
+- [ ] GUI version (future 🚀)
 
 ---
 
